@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #1F2937;
+  color: white;
+  font-size: 1.3rem;
+}
+button {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.header
+{
+    font-family: "Press Start 2P", cursive;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 40px 0px;
+}
+.title
+{
+    font-size: 32px;
+}
+.main
+{
+    padding-top: 20px;
+    background-color: #1F2937;
+    text-align: center;
+}
+#scoreInfo
+{
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+#scoreMessage 
+{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.score-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 80px;
+}
+.sign 
+{
+    font-size: 80px;
+}
+.score 
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.buttons
+{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btn 
+{
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+  background-color: rgb(85, 85, 85)
+}
+.btn:hover {
+    background-color: #4a4f57;
+}
+  
+.btn:active {
+    background-color: #5b5f68;
+}
+.restartContainer
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.restartBtn
+{
+    display: none;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+}
